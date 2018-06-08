@@ -1,0 +1,31 @@
+# public
+public/*
+
+# sync file
+src/Appsync.js
+
+# Local reports
+reports
+npm-debug.*
+coverage
+
+# Dependency directory & Lock file
+node_modules
+yarn.lock
+yarn-error.log
+
+# Local config
+config/local*
+
+.idea
+.DS_Store
+/newrelic_agent.log
+
+# WebPack
+stats.html
+webpack-stats*.json
+/package-lock.json
+
+# Emacs
+**/.#*
+
